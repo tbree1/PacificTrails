@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="resort.css">
+  <title>Pacific Trails Resort</title>
+  <meta name="description" content="  ">
+</head>
+<body>
+<nav><ul>
+  <a href="home.html">Home</a>
+  <a href="yurts.html">Yurts</a>
+  <a href="activities.html">Activities</a>
+  <a href="reservations.html">Reservations</a>
+</ul></nav>
+<a href="index.html"><header class="home"><h1>Pacific Trails Resort</h1></header></a>
+<div id ="wrapper">
+  <main>
+    <div class="container">
+      <h2>Make a Reservation</h2>
+      <p>Required fields are marked with an asterisk *</p>
+      <form method="post" name="reservations_form">
+        <label id="myName" for="myName">* Name</label>
+        <input name="myName" type="text" required/>
+        <br>
+        <label id="myEmail" for="myEmail">* E-mail</label>
+        <input name="myEmail" type="email" required/>
+        <br>
+        <label for="myReferral">How did you hear about us?</label>
+        <input name="myReferral" type="text"/>
+        <datalist id="myReferral">
+          <option value="Google">
+          <option value="Bing">
+          <option value="Facebook">
+          <option value="Friend">
+          <option value="Radio Ad">
+        </datalist>
+        <br>
+        <label id="myComments" for="myComments">* Comments</label><br>
+        <textarea name="myComments" cols="30" rows="10" required> </textarea>
+        <div class="center">
+          <input type="submit" value="Send Now">
+        </div>
+      </form>
+    </div>
+  </main>
+  <footer>
+    Copyright&copy; 2020 Pacific Trails Resort<br>
+    <a href = "tbree1@my.wctc.edu">tbree1@my.wctc.edu</a>
+    <br>
+    <br>
+  </footer>
+</div>
+</body>
+</html>
